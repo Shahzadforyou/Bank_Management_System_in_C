@@ -24,8 +24,20 @@ class Account{
     void Get_Balance(){
         cout<<"Your balance is "<<balance<<endl;
     }
-    void Get_AccountNumber()
-
+    void Get_AccountNumber(){
+        cout<<"Your account number is "<<account_number<<endl;
+    }
+    bool Verify_Pin(unsigned int entered_pin){
+        bool flag = false;
+        if (entered_pin == pin)
+        {
+            flag = true;
+            return flag;
+        }else{
+            return flag;
+        }
+        
+    }
 };
 
 int main(){
