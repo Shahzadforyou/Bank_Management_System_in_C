@@ -1,5 +1,6 @@
 #include<iostream>
 #include<string>
+#include<vector>
 using namespace std;
 class Account{
     protected:
@@ -38,6 +39,23 @@ class Account{
         }
         
     }
+};
+class Customer:protected Account{
+    protected:
+    double customer_id = customer_id;
+    string name;
+    string address;
+    unsigned int contact_info;
+    vector <int> accounts;
+    public:
+    void Add_Accounts(){
+        while (cin)
+        {
+            /* code */
+        }
+        
+    }
+
 };
 
 int main(){
